@@ -1,11 +1,11 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
-import BlogCard from "./BlogsCards";
+
 import Particle from "../Particle";
 import "../../style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Waveform from "../Waveform/Waveform";
+
 import alt from "../../Assets/formats/alt.jpg";
 import hiphop from "../../Assets/formats/hiphop.jpg";
 import activerock from "../../Assets/formats/activerock.jpg";
@@ -14,7 +14,6 @@ import talkradio from "../../Assets/formats/talkradio.jpg";
 import top40 from "../../Assets/formats/top40.jpg";
 import country from "../../Assets/formats/country.jpg";
 import classichits from "../../Assets/formats/classichits.jpg";
-import ReactPlayer from "react-player";
 
 import alt_demo from "../../Assets/demo_audio/alt_demo.mp3";
 import classichits_demo from "../../Assets/demo_audio/classichits_demo.mp3";

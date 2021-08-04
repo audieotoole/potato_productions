@@ -4,7 +4,6 @@ import "../../style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import homeLogo from "../../Assets/speaker.jpg";
 import Particle from "../Particle";
-import Home2 from "./Home2";
 import Type from "./Type";
 import Waveform from "../Waveform/Waveform";
 import ALT_DEMO from "../../Assets/demo_audio/alt_demo.mp3";
