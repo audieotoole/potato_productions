@@ -41,9 +41,9 @@ html {
   background-position: center;
 }
 
-#preloader-none {
+/* #preloader-none {
   opacity: 0;
-}
+} */
 
 #no-scroll {
   overflow: hidden;
