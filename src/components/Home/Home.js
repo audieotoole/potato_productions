@@ -39,7 +39,7 @@ function Home() {
                 alt="home pic"
                 className="img-fluid"
                 id="speaker"
-                style={{ zIndex: 1000 }}
+                
               />
             </Col>
           </Row>
