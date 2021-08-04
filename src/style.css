@@ -16,7 +16,7 @@ html {
 
 #speaker {
   border-radius: 50px;
-  opacity: 90%;
+  opacity: 90% !important;
   box-shadow: 5px 5px 5px 5px black;
   z-index: 10000;
 }
