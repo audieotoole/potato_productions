@@ -18,8 +18,8 @@ html {
   border-radius: 50px;
   opacity: 80%;
   box-shadow: 5px 5px 5px 5px black;
+  z-index: 10000;
 }
-
 
 .purple {
   color: var(--imp-text-color) !important;
