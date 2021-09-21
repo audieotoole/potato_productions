@@ -6,10 +6,10 @@ import homeLogo from "../../Assets/speaker.jpg";
 import Particle from "../Particle";
 import Type from "./Type";
 import Waveform from "../Waveform/Waveform";
-import ALT_DEMO from "../../Assets/demo_audio/alt_demo.mp3";
+import DEMO from "../../Assets/demo_audio/pp_demo_sept21.mp3";
 
 function Home() {
-  const url = ALT_DEMO;
+  const url = DEMO;
 
   return (
     <section>
@@ -39,7 +39,6 @@ function Home() {
                 alt="home pic"
                 className="img-fluid"
                 id="speaker"
-                
               />
             </Col>
           </Row>
