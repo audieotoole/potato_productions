@@ -2,6 +2,7 @@ import React from "react";
 import "../style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Container, Row, Col } from "react-bootstrap";
+import resume from "../Assets/resume.pdf";
 
 function Footer() {
   let date = new Date();
@@ -44,6 +45,11 @@ function Footer() {
                 style={{ color: "white" }}
               >
                 <i className="fab fa-soundcloud"></i>
+              </a>
+            </li>
+            <li className="social-icons">
+              <a href={resume} style={{ color: "white" }}>
+                <i className="fas fa-file-download"></i>
               </a>
             </li>
           </ul>

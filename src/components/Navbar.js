@@ -5,7 +5,7 @@ import Container from "react-bootstrap/Container";
 import "../style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Link } from "react-router-dom";
-
+import resume from "../Assets/resume.pdf";
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
@@ -62,6 +62,11 @@ function NavBar() {
                 onClick={() => updateExpanded(false)}
               >
                 <i className="fab fa-codepen"></i> Demos
+              </Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link href={resume}>
+                <i className="fas fa-file-download"></i> CV
               </Nav.Link>
             </Nav.Item>
             {/* <Nav.Item>
