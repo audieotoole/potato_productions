@@ -9,6 +9,7 @@ import radio_console from "../../Assets/radio_console.jpg";
 import consultation_img from "../../Assets/consulting.jpg";
 import music_production from "../../Assets/music_production.jpg";
 import microphone from "../../Assets/microphone.jpg";
+import resume from "../../Assets/resume.pdf";
 
 function Home2() {
   return (
@@ -34,6 +35,7 @@ function Home2() {
             <span style={{ fontSize: "60px" }}>
               <i className="fas fa-podcast">&nbsp;</i>
             </span>
+
             <p className="home-about-body">
               I've been an audio engineer and radio producer for
               <i>
@@ -83,6 +85,18 @@ function Home2() {
             <Tilt>
               <img src={myImg} className="img-fluid" alt="avatar" />
             </Tilt>
+            <span style={{ fontSize: "20px" }}>
+              <a
+                href={resume}
+                className="resumeLink"
+                style={{
+                  textDecoration: "none",
+                  color: "white",
+                }}
+              >
+                Download Resume
+              </a>
+            </span>
           </Col>
         </Row>
         <br />
