@@ -40,7 +40,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://soundcloud.com/user-958160092-282901623"
+                href="https://soundcloud.com/audieotoole"
                 style={{ color: "white" }}
               >
                 <i className="fab fa-soundcloud"></i>
