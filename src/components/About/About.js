@@ -385,12 +385,12 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.facebook.com/audieotoole"
+                  href="https://www.soundcloud.com/audieotoole"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
                 >
-                  <i className="fab fa-facebook"></i>
+                  <i className="fab fa-soundcloud"></i>
                 </a>
               </li>
             </ul>
