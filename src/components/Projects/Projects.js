@@ -14,6 +14,8 @@ import talkradio from "../../Assets/formats/talkradio.jpg";
 import top40 from "../../Assets/formats/top40.jpg";
 import country from "../../Assets/formats/country.jpg";
 import classichits from "../../Assets/formats/classichits.jpg";
+import vo from "../../Assets/formats/vo.jpg";
+import commercials from "../../Assets/formats/commercials.jpg";
 
 import alt_demo from "../../Assets/demo_audio/alt_demo.mp3";
 import classichits_demo from "../../Assets/demo_audio/classichits_demo.mp3";
@@ -24,7 +26,7 @@ import rock_demo from "../../Assets/demo_audio/rock_demo.mp3";
 import talkradio_demo from "../../Assets/demo_audio/talkradio_demo.mp3";
 import top40_demo from "../../Assets/demo_audio/top40_demo.mp3";
 import vo_demo from "../../Assets/demo_audio/vo_demo.mp3";
-import commercial_demo from "../../Assets/demo_audio/commercials_demo.mp3";
+import commercials_demo from "../../Assets/demo_audio/commercials_demo.mp3";
 
 function Projects() {
   return (
@@ -37,61 +39,27 @@ function Projects() {
           My Production <strong className="purple">Demos </strong>
         </h1>
 
-        <p style={{ color: "white" }}>Radio imaging demos by format</p>
+        <p style={{ color: "white" }}>
+          radio imaging, commercial production, and voice-over demos
+        </p>
 
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={alt}
-              isBlog={false}
-              title="Alternative"
-              description="Production Demo for Alternative radio station imaging."
-              link={alt_demo}
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={hiphop}
-              isBlog={false}
-              title="Hip-Hop/Urban"
-              description="Production Demo for Hip-Hop/Urban radio station imaging."
-              link={hiphop_demo}
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={top40}
-              isBlog={false}
-              title="Top 40/Pop"
-              description="Production Demo for Top 40/Pop radio station imaging."
-              link={top40_demo}
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={classicrock}
-              isBlog={false}
-              title="Classic Rock"
-              description="Production Demo for Classic Rock radio station imaging."
-              link={classicrock_demo}
-            />
-          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={activerock}
               isBlog={false}
               title="Active Rock"
-              description="Production Demo for Active Rock radio station imaging."
+              description="Active Rock format imaging demo."
               link={rock_demo}
             />
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={talkradio}
+              imgPath={alt}
               isBlog={false}
-              title="Talk Radio"
-              description="Production Demo for Talk Radio radio station imaging."
-              link={talkradio_demo}
+              title="Alternative"
+              description="Alternative radio imaging demo."
+              link={alt_demo}
             />
           </Col>
           <Col md={4} className="project-card">
@@ -99,8 +67,17 @@ function Projects() {
               imgPath={classichits}
               isBlog={false}
               title="Classic Hits"
-              description="Production Demo for Classic Hits radio station imaging."
+              description="Classic Hits radio imaging demo."
               link={classichits_demo}
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={classicrock}
+              isBlog={false}
+              title="Classic Rock"
+              description="Classic Rock radio station imaging."
+              link={classicrock_demo}
             />
           </Col>
           <Col md={4} className="project-card">
@@ -108,8 +85,53 @@ function Projects() {
               imgPath={country}
               isBlog={false}
               title="Country"
-              description="Production Demo for Country radio station imaging."
+              description="Country station imaging.  Yee-haw."
               link={country_demo}
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={commercials}
+              isBlog={false}
+              title="Commercials"
+              description="Radio commercials demo."
+              link={commercials_demo}
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={hiphop}
+              isBlog={false}
+              title="Hip-Hop/Urban"
+              description="Hip-Hop/Urban radio station imaging."
+              link={hiphop_demo}
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={talkradio}
+              isBlog={false}
+              title="Talk Radio"
+              description="Talk Radio format imaging demo."
+              link={talkradio_demo}
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={top40}
+              isBlog={false}
+              title="Top 40/Pop"
+              description="Top 40/Pop radio station imaging."
+              link={top40_demo}
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={vo}
+              isBlog={false}
+              title="Voice-Overs"
+              description="Audio O'Toole voice-over demo."
+              link={vo_demo}
             />
           </Col>
         </Row>
