@@ -310,11 +310,11 @@ function Home2() {
           </Col>
           <Col md={8} className="home-about-description">
             <p className="home-about-body">
-              Whether you need a quick narration, or a long form audio book
-              read, I will provide top notch quality audio voice-overs recorded
-              in a sound proof studio utilizing professional quality microphones
-              and the latest recording technology, delivered in any audio format
-              you need for your project.
+              Whether you need a quick narration, or a long form audiobook read,
+              I will provide top notch quality audio voice-overs recorded in a
+              sound proof studio utilizing professional quality microphones and
+              the latest recording technology, delivered in any audio format you
+              need for your project.
               <br />
               <br />
               From
