@@ -23,6 +23,8 @@ import hiphop_demo from "../../Assets/demo_audio/hiphop_demo.mp3";
 import rock_demo from "../../Assets/demo_audio/rock_demo.mp3";
 import talkradio_demo from "../../Assets/demo_audio/talkradio_demo.mp3";
 import top40_demo from "../../Assets/demo_audio/top40_demo.mp3";
+import vo_demo from "../../Assets/demo_audio/vo_demo.mp3";
+import commercial_demo from "../../Assets/demo_audio/commercials_demo.mp3";
 
 function Projects() {
   return (
